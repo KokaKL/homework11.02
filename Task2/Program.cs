@@ -19,7 +19,7 @@ double Find_x(double[] arr)
 double Find_y(double[] arr)
 {
     double x = Find_x(arr);
-    double y = arr[0]*x + arr[1];
+    double y = arr[1]*x + arr[0];
     return y;
 }
 double X = Find_x(array);
