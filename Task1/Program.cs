@@ -27,4 +27,13 @@ for (int i = 0; i < n; i++)
     }
 
 PrintArray(array);
-
+int count = 0;
+for (int i = 0; i < n; i++)
+{
+    
+    if (array[i] > 0)
+    {
+        count = count + 1;
+    }
+}
+System.Console.WriteLine($"Количество чисел, введёных пользователем, которые больше 0 = {count}");
